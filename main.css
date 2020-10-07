@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@500&display=swap');
+
+
+
+
 html {
     scroll-behavior: smooth;
 
@@ -15,6 +20,50 @@ body {
     min-height: 100vh;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+    user-select: none;
+    background-color: white;
+    align-items: center;
 
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    top: 0;
+    background-color: darkblue;
+    position: sticky;
+    z-index: 100;
+}
+
+.brand {
+
+    font-size: 3rem;
+    color: white;
+    font-weight: 200;
+    gap: 10;
+
+}
+
+.menu {
+    color: white;
+    font-size: 2rem;
+    margin-left: auto;
+
+}
+
+.menu :hover {
+    color: red;
 
 }
